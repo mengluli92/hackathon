@@ -1,0 +1,62 @@
+.p2-arrowup {
+  height: 12px;
+  width: 12px;
+}
+
+.p2-first-floor {
+  color: white;
+  position: absolute;
+  top: 250vh;
+  transform: translateX(-50%);
+}
+
+.p2-second-floor {
+  color: white;
+  position: absolute;
+  top: 150vh;
+  transform: translateX(-50%);
+}
+
+.p2-second-floor-exit {
+  animation: 0.5s fade-in;
+  position: absolute;
+  top: 200vh;
+  transform: translate(-50%, -100%) translateY(-20px);
+  z-index: 2;
+}
+
+.p2-third-floor {
+  color: white;
+  position: absolute;
+  top: 50vh;
+  transform: translateX(-50%);
+}
+
+.p2-third-floor-back {
+  animation: 0.5s fade-in;
+  position: absolute;
+  top: 100vh;
+  transform: translate(-50%, -100%) translateY(-20px);
+  width: 250px;
+  z-index: 2;
+}
+
+.p2-container {
+  background-image: url(images/p2-bg.png);
+  background-size: 100% auto;
+  height: 300vh;
+  overflow-y: hidden;
+  text-align: center;
+  position: relative;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -100%) translateY(-20px);
+  }
+}

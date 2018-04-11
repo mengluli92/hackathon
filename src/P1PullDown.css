@@ -1,0 +1,41 @@
+.p1-body-container {
+  height: 100vh;
+  text-align: "center"
+}
+
+.p1-pulldown-arrowdown {
+  height: 12px;
+  width: 12px;
+}
+
+.p1-pulldown-arrowdown-container {
+  bottom: 60px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+}
+
+.p1-pulldown-container {
+  background-color: #DEE4F3;
+  height: 332px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.p1-pulldown-trailer {
+  height: 300px;
+  width: 100%;
+}
+
+.p1-pulldown-title {
+  bottom: 24px;
+  color: #8FA2CC;
+  font-family: 'PingFang SC';
+  font-size: 14px;
+  letter-spacing: -0.19px;
+  position: absolute;
+  width: 100%;
+}
