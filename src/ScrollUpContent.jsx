@@ -10,16 +10,18 @@ const textStyle = {
   color: 'white',
   fontFamily: 'PingFang SC',
   fontSize: 14,
-  paddingLeft: 8,
+  letterSpacing: -0.19,
+  opacity: 0.5,
+  paddingLeft: 12,
 };
 
 export default function ScrollUpContent({
   text,
 }) {
   return (
-    <span>
+    <div>
       <img alt="arrowup" style={arrowUpStyle} src={arrowUp} />
       <span style={textStyle}>{text}</span>
-    </span>
+    </div>
   );
 }

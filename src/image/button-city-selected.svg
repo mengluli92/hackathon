@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="36px" viewBox="0 0 68 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="cities" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-55.000000, -202.000000)" stroke-dasharray="1,10" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-9" transform="translate(21.000000, 48.000000)" fill="#6347EF">
+            <g id="Group">
+                <g id="Group-3-Copy-5">
+                    <path d="M40.7322712,157.954859 C43.365066,156.085593 47.0846159,154.071455 76.0385368,155.20237 C103.537064,156.276439 97.8112952,148.339105 99.4365355,169.77755 C99.8093894,174.695844 103.193776,179.75509 101.554449,184.432803 C100.626688,187.080108 96.1770104,186.803813 93.2931149,187.307402 C86.2489023,188.537471 79.1051225,189.542693 71.9436241,189.603479 C46.9444424,189.815669 23.7479933,188.76152 38.7342399,159.616362 L40.7322712,157.954859 Z" id="Path-4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+.container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #131F3A;
+  opacity: 0.81;
+  top: 0;
+  vertical-align: center;
+  z-index: 9;
+}
+
+.panel {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background: #E1E9F1;
+  border-radius: 4px;
+  opacity: 1;
+  z-index: 10;
+  overflow: scroll;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 import arrowDown from './images/arrow-down.png';
 import trailer from './images/trailer.png';
-import './P1PullDown.css';
+import './css/P1.css';
 
 export default function P1PullDown() {
   return (

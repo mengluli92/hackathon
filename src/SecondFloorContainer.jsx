@@ -1,17 +1,14 @@
 import React from 'react';
 import { PullToRefresh } from "react-js-pull-to-refresh";
 
+import airbnbP1 from './images/airbnb-p1.png';
 import P1PullDown from './P1PullDown';
-import P2 from './P2';
+import P2Container from './P2Container';
+import './css/P1.css';
 
 const MAX_PULL_DOWN_HEIGHT = 332;
 
-const airbnbP1ContainerSylte = {
-  height: '100vh',
-  textAlign: 'center',
-};
-
-class SecondFloor extends React.Component {
+class SecondFloorContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = { showP2: false };
@@ -21,11 +18,11 @@ class SecondFloor extends React.Component {
 
   handleGoBackClick() {
     this.setState({ showP2: false });
+    window.scrollTo(0, 0);
   }
 
   handleRefresh() {
     return new Promise((resolve) => {
-      // setTimeout(resolve, 500);
       this.setState({ showP2: true});
     });
   }
@@ -43,16 +40,16 @@ class SecondFloor extends React.Component {
             onRefresh={this.handleRefresh}
           >
             {!showP2 && (
-              <div style={airbnbP1ContainerSylte}>
-                <div>Airbnb P1</div>
+              <div className="p1-body-container">
+                <img alt="airbnbp1" className="p1-airbnb-p1" src={airbnbP1} />
               </div>
             )}
           </PullToRefresh>
         )}
-        {showP2 && <P2 onGoBackClick={this.handleGoBackClick} />}
+        {showP2 && <P2Container onGoBackClick={this.handleGoBackClick} />}
       </div>
     );
   }
 }
 
-export default SecondFloor;
+export default SecondFloorContainer;

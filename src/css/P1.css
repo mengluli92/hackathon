@@ -1,6 +1,11 @@
+.p1-airbnb-p1 {
+  height: auto;
+  width: 100%;
+}
+
 .p1-body-container {
-  height: 100vh;
-  text-align: "center"
+  text-align: "center";
+  width: 100%;
 }
 
 .p1-pulldown-arrowdown {

@@ -1,0 +1,8 @@
+.btn2 {
+  background: url("../image/button-search-host.png") no-repeat;
+  background-size: 100% 100%;
+  width: 230px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}

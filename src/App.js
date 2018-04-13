@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import SecondFloor from './SecondFloor';
+import SecondFloorContainer from './SecondFloorContainer';
 
 class App extends Component {
   render() {
-    return <SecondFloor />;
+    return <SecondFloorContainer />;
   }
 }
 
